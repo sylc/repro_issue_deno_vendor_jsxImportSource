@@ -1,0 +1,10 @@
+{
+  "tasks": {
+    "start": "deno run -A ./test.tsx"
+  },
+  "importMap": "./vendor/import_map.json",
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "jsxImportSource": "preact"
+  }
+}

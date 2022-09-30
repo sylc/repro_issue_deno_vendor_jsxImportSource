@@ -1,0 +1,12 @@
+{
+  "imports": {
+    "preact-render-to-string": "./esm.sh/_preact-render-to-string@5.2.4.js",
+    "https://esm.sh/": "./esm.sh/"
+  },
+  "scopes": {
+    "./esm.sh/": {
+      "/stable/preact@10.11.0/deno/preact.js": "./esm.sh/stable/preact@10.11.0/deno/preact.js",
+      "preact": "./esm.sh/preact@10.11.0.js"
+    }
+  }
+}
